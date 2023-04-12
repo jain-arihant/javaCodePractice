@@ -9,7 +9,6 @@ public class charOccuranceInString {
     }
     private static void charCount(String str){
         HashMap<Character, Integer> map = new HashMap<>();
-        char[] ch = str.toCharArray();
         for (int i = 0; i< str.length(); i++){
             char c = str.charAt(i);
             if(map.containsKey(c)){
