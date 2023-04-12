@@ -19,6 +19,16 @@ public class charOccuranceInString {
                 map.put(c, 1);
             }
         }
+        int count =0;
+        char ans = 0;
         System.out.println(map);
+        for (int j =0; j< map.size(); j++)
+        {char c = str.charAt(j);
+        if(count<map.get(c)) {
+            count = map.get(c);
+            ans = c;
+        }
+       }
+        System.out.println("Character: "+ans+" count: "+count);
     }
 }
