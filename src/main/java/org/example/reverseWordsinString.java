@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class reverseWordsinString {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string: ");
+        System.out.println("Enter the string: "); //god is great
         String input = sc.nextLine();
-        reverseString(input);
+        reverseString(input); //great is god
     }
     private static String reverseString(String input){
         String output="";

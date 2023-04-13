@@ -6,9 +6,9 @@ public class reverseWordsOfLine {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string: ");
+        System.out.println("Enter the string: "); //arihant is good
         String input = sc.nextLine();
-        System.out.println("Output is: "+reverseLineWords(input));
+        System.out.println("Output is: "+reverseLineWords(input)); //tnahira si doog
 //        System.out.println("Output is: "+reverseLineWordsSb(input));
     }
     private static String reverseLineWords(String input){
