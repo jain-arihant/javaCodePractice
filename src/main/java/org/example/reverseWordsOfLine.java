@@ -9,11 +9,10 @@ public class reverseWordsOfLine {
         System.out.println("Enter the string: "); //arihant is good
         String input = sc.nextLine();
         System.out.println("Output is: "+reverseLineWords(input)); //tnahira si doog
-//        System.out.println("Output is: "+reverseLineWordsSb(input));
+        System.out.println("Output is from StringBuilder: "+reverseLineWordsSb(input));
     }
     private static String reverseLineWords(String input){
         String output = "";
-        char[] str = input.toCharArray();
         String str1[] = input.split(" ");
         for(String w : str1){
             output += reverse(w) + " ";
