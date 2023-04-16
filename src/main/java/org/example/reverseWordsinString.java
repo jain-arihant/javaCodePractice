@@ -15,7 +15,7 @@ public class reverseWordsinString {
         for (int i = str.length - 1; i>=0; i--){
             output += str[i] + " ";
         }
-        System.out.println(output);
+        System.out.println(output); //great is god
         output = output.substring(0,output.length() -1);
         return output;
     }
