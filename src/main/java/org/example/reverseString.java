@@ -19,4 +19,9 @@ public class reverseString {
         }
         return output;
     }
+    private static void stringBuilderReverse (String str){
+        StringBuilder sb = new StringBuilder(str);
+        sb.reverse();
+        System.out.println("String Builder :"+sb);
+    }
 }
