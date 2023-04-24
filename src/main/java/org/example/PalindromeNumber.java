@@ -14,8 +14,8 @@ import java.util.Scanner;
             int temp = num;
             while(temp!= 0) {
                 rem = temp % 10;
-                temp = temp / 10;
                 output = output * 10 + rem;
+                temp = temp / 10;
             }
         if (output == num){
             System.out.println("Number is palindrome: "+num);
@@ -23,6 +23,6 @@ import java.util.Scanner;
         }
         else
             System.out.println("Number is not palindrome: "+num);
-
+            System.out.println("Output: "+output);
     }
 }

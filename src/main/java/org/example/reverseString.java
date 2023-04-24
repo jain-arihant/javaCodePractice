@@ -9,6 +9,7 @@ public class reverseString {
         System.out.println("Enter the string: ");
         String str = sc.nextLine();
         System.out.println(reverse(str));
+        stringBuilderReverse(str);
     }
     private static String reverse (String str){
         String output = "";
