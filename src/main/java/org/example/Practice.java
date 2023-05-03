@@ -24,6 +24,7 @@ public class Practice {
         System.out.println(map);
         map.clear();
         map.isEmpty();
+        map.get(1);
 
         //ArrayList
         ArrayList<Integer> list = new ArrayList<>();
